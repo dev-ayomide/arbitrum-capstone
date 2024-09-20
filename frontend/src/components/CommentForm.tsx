@@ -1,4 +1,4 @@
-2import styles from "../styles/Custom.module.css";
+import styles from "../styles/Custom.module.css";
 import { faWarning, faPencil } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { Address } from "viem";
