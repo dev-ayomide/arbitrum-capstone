@@ -3,10 +3,7 @@ import { faWarning, faPencil } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { Address } from "viem";
 import { useState } from "react";
-import {
-	useWaitForTransactionReceipt,
-	useAccount,
-} from "wagmi";
+import { useWaitForTransactionReceipt, useAccount } from "wagmi";
 import { deployedAddress } from "../contracts/deployed-contract";
 import type { CommentDetails, PostDetails } from "../types/posts/types";
 import { useWriteForumCreateComment } from "../contracts/generated";
